@@ -126,6 +126,8 @@ Additional details on how to follow above instructions are provided in following
 
 [![Easiest Way to Install Alfresco 7.3 using Docker Compose](https://i.ytimg.com/vi/Lg49CoY8yl4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn3qd1x4ChgfMQhRlQ4RwOrdCCCQ)](https://www.youtube.com/watch?v=Lg49CoY8yl4)
 
+[Easiest Way to Install Alfresco 7.3 using Docker Compose](https://www.youtube.com/watch?v=Lg49CoY8yl4)
+
 ## Building
 
 **NOTE** This section only applies to developers willing to create the Docker Image from scratch or to contribute to the project.
