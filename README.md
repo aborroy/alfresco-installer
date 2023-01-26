@@ -120,6 +120,12 @@ From this point, Alfresco is ready to be used. Type any of the "SERVICE URLs" in
 
 Alfresco can be stopped typing `Ctrl+C` in the terminal used to start the Docker Compose (remember that you typed there `docker compose up`). If you want to start again Alfresco, just type `docker compose up` from the folder used to produce the configuration (like `alfresco`).
 
+## Video recording
+
+Additional details on how to follow above instructions are provided in following video recording:
+
+[![Easiest Way to Install Alfresco 7.3 using Docker Compose](https://i.ytimg.com/vi/Lg49CoY8yl4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn3qd1x4ChgfMQhRlQ4RwOrdCCCQ)](https://www.youtube.com/watch?v=Lg49CoY8yl4)
+
 ## Building
 
 **NOTE** This section only applies to developers willing to create the Docker Image from scratch or to contribute to the project.
