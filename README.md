@@ -56,7 +56,8 @@ DOCKER COMPOSE ALFRESCO
   7.0
   7.1
   7.2
-❯ 7.3
+  7.3
+❯ 7.4
 ```
 
 Information related to the questions for Alfresco customization are available in [Alfresco Docker Installer](https://github.com/Alfresco/alfresco-docker-installer#running) project. If you are not familiar with any of them, just choose *default* option.
@@ -101,7 +102,6 @@ After the information to start Alfresco, there is a list of files created in cur
    create search/Dockerfile
    create config/nginx.conf
    create config/nginx.htpasswd
-   create alfresco/modules/jars/activemq-broker-5.17.2.jar
 ```
 
 These files describe the Alfresco configuration to be executed when using Docker Compose.
