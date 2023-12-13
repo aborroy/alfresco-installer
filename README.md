@@ -36,7 +36,7 @@ $ cd alfresco
 Type following command to produce Docker Compose template in current folder (like `alfresco`) when using Linux or MacOS:
 
 ```
-$ docker run -it -v $(pwd):/generated angelborroy/alfresco-installer
+$ docker run -it -v $(pwd)/generated angelborroy/alfresco-installer
 ```
 
 If you are using *Windows*, type this alternative syntax from [PowerShell](https://learn.microsoft.com/en-us/powershell/):
