@@ -39,6 +39,13 @@ Type following command to produce Docker Compose template in current folder (lik
 $ docker run -it -v $(pwd):/generated angelborroy/alfresco-installer
 ```
 
+>> Note. When using Linux as host (e.g. Ubuntu 22.04), add permissions for user `501` to the folder used to create Alfresco Docker assets:
+>> 
+>> `mkdir alfresco`
+>> `sudo chown 501 alfresco`
+>> `cd alfresco`
+>> `sudo docker run -it -v $(pwd):/generated angelborroy/alfresco-installer`
+
 If you are using *Windows*, type this alternative syntax from [PowerShell](https://learn.microsoft.com/en-us/powershell/):
 
 ```
