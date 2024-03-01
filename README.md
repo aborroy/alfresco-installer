@@ -66,7 +66,8 @@ DOCKER COMPOSE ALFRESCO
   7.2
   7.3
   7.4
-❯ 23.1
+  23.1
+❯ 23.2
 ```
 
 Information related to the questions for Alfresco customization are available in [Alfresco Docker Installer](https://github.com/Alfresco/alfresco-docker-installer#running) project. If you are not familiar with any of them, just choose *default* option.
