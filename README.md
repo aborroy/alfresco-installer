@@ -145,7 +145,7 @@ Additional details on how to follow above instructions are provided in following
 Despite is not required to build this Docker Image to use it (it's available as `angelborroy/alfresco-installer` in [Docker Hub](https://hub.docker.com/repository/docker/angelborroy/alfresco-installer/general)), following command will build the Docker Image:
 
 ```
-$ docker buildx build --platform linux/amd64,linux/arm64 -t angelborroy/alfresco-installer:latest . --push
+$ docker buildx build --no-cache --platform linux/amd64,linux/arm64 --attest type=sbom --attest type=provenance,mode=max -t angelborroy/alfresco-installer:latest . --push
 ```
 
 >> You may need to change the repository name `angelborroy` to your own.
